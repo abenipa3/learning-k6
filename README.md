@@ -17,12 +17,6 @@ Just as the title mentioned, here is the following command to run a 30 second, 1
 k6 run --vus 10 --duration 30s script.js
 ```
 
-### How to run the sample site locally:
-```
- bundle exec jekyll serve
-```
-The sample website has been built with [Jekyll](https://jekyllrb.com/).
-
 ## Sources used for learning:
 
 - Documentation: https://k6.io/docs/get-started/resources/

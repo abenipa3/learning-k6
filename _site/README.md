@@ -12,10 +12,16 @@ Run k6 with the following command on the CLI:
 k6 run script.js
 ```
 ### How to run load tests with more than one virtual user and a longer duration
+Just as the title mentioned, here is the following command to run a 30 second, 10-VU load test:
 ```
 k6 run --vus 10 --duration 30s script.js
 ```
 
+### How to run the sample site locally:
+```
+ bundle exec jekyll serve
+```
+The sample website has been built with [Jekyll](https://jekyllrb.com/).
 
 ## Sources used for learning:
 
